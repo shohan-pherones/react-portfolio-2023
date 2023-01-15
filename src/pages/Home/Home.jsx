@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { HeroLg, HeroMd, HeroSm } from "../../assets/index";
+import Scroller from "../../components/Scroller";
 
 const Home = () => {
   return (
@@ -76,6 +77,13 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <Scroller
+        text={
+          "🙋🏽‍♀️ Let's get to work! 💭 Have a project in mind? 🙋🏽‍♀️ Let's get to work! 💭 Have a project in mind? 🙋🏽‍♀️ Let's get to work! 💭 Have a project in mind?"
+        }
+        link="/contact"
+      />
     </div>
   );
 };
